@@ -22,6 +22,9 @@ describe FizzBuzz do
     expect(result[10]).to eq 'buzz'
   end
 
-  xit "should give 'fizzbuzz' when it is both a fizz and buzz" do
+  it "should give 'fizzbuzz' when it is both a fizz and buzz" do
+    expect(result[3]).to eq 'fizz'
+    expect(result[5]).to eq 'buzz'
+    expect(result[15]).to eq 'fizzbuzz'
   end
 end
