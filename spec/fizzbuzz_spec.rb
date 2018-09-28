@@ -2,7 +2,7 @@ require 'fizzbuzz'
 
 describe FizzBuzz do
   it "should output 100 things if given 100 as an input" do
-    expect(true).to be false
+    expect(subject.run(100).count).to be 100
   end
   xit "should output 5 things if given 5 as an input" do
   end
