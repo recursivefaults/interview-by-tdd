@@ -1,6 +1,7 @@
 class FizzBuzz
   FIZZ = 'fizz'
   BUZZ = 'buzz'
+  FIZZ_BUZZ = FIZZ+BUZZ
 
   def run(length)
     result = []
