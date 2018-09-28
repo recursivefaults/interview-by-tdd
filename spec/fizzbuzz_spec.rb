@@ -25,6 +25,11 @@ describe FizzBuzz do
     expect(result[10]).to eq buzz
   end
 
+  it "should give the number itself if it is not a multiple of 3 or 5" do
+    expect(result[1]).to eq 1
+    expect(result[2]).to eq 2
+  end
+
   it "should give 'fizzbuzz' when it is both a fizz and buzz" do
     expect(result[3]).to eq fizz
     expect(result[5]).to eq buzz
