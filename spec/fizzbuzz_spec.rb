@@ -16,8 +16,11 @@ describe FizzBuzz do
     expect(result[9]).to eq 'fizz'
   end
 
-  xit "should give 'buzz' for every multiple of 5" do
+  it "should give 'buzz' for every multiple of 5" do
+    expect(result[5]).to eq 'fizz'
+    expect(result[10]).to eq 'fizz'
   end
+
   xit "should give 'fizzbuzz' when it is both a fizz and buzz" do
   end
 end
