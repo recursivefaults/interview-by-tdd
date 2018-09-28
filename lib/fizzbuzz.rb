@@ -1,7 +1,7 @@
 class FizzBuzz
-  def run(n)
+  def run(length)
     result = []
-    100.times do |n|
+    length.times do |n|
       result << n
     end
     result
